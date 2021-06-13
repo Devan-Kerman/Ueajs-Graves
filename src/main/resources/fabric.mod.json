@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "ueajs_graves",
+  "version": "${version}",
+  "name": "Ueaj's Graves",
+  "description": "serverside graves mod",
+  "authors": [
+    "HalfOf2"
+  ],
+  "license": "LGPL-3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.devtech.graves.GravesMain"
+    ]
+  },
+  "mixins": [
+    "graves.mixins.json"
+  ]
+}
